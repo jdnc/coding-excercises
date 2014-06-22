@@ -1,0 +1,25 @@
+# previous interviews
+- DFS/BFS
+- Trees
+- Hash tables
+- OOP design 
+- greedy algorithms [ intervals/ interval scheduling skyline/ histogram area]
+- search/ sort
+- standard palindromic techniques
+- bit manipulation problems
+- randomization -> fisher yates etc... 
+
+# Problem sources
+- misch_me spoj problems (all areas)
+- topcoder - strings/ DP/ greedy/ geometry/ ... Div 2 [500/1000] Div1[300]
+- project Euler - first 50
+- GeekForGeeks -> trees, linkedlist, search
+
+# Reading sources
+- algorithm design manual
+- effective c++
+- c++ faq online
+- topcoder tutorials
+
+# Revision
+CTCI, PIE
