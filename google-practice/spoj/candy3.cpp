@@ -13,7 +13,7 @@ int main() {
 	  cin >> n;
 	  for (ll i = 0; i < n; ++i) {
 	     cin >> x;
-	     sum += x;
+	     sum = (sum + x) % n
 	  }
 	  if (sum % n == 0)
 	    cout << "YES" << endl;
