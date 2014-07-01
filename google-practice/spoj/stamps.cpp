@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-#include<algortihm>
+#include<algorithm>
 #define ll long long
 using namespace std;
 
@@ -20,9 +20,18 @@ int main() {
     }
     std::sort(stamps.begin(), stamps.end(), std::greater<ll>());
     ll sum = 0;
+    ll count = 0;
     for (vector<ll>::iterator it = stamps.begin(); it != stamps.end(); ++it) {
-       sum 
+       if (sum >= numStamps) break;
+       sum += *it;
+       ++count;
     }
+    cout << "Scenario #" << i + 1 << ":" << endl;
+    if (sum < numStamps) 
+        cout << "impossible" << endl;
+    else 
+        cout << count << endl;
+    cout << endl;
    }
-
+  return 0;
 }
